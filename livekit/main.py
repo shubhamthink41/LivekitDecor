@@ -10,7 +10,7 @@ from typing import Annotated
 import random
 from typing import Annotated
 from livekit.agents.pipeline import AgentCallContext
-from furniture_catalog import furniture_catalog ,tags,furniture
+from furniture_catalog import furniture_catalog, tags, furniture
 
 
 load_dotenv()
@@ -37,16 +37,16 @@ class AssistantFnc(llm.FunctionContext):
             )
         ],
         tags: Annotated[
-            str, llm.TypeInfo(
+            list[str], llm.TypeInfo(
                 description="Comma-separated tags to filter furniture",
                 choices=tags
             )
-        ] = None,  
+        ] = None,
     ):
         """Called when the user asks to show furniture images based on type and tags."""
-        
-        logger.error(f"FFFFFFFFFFF -{furniture}")
-        logger.error(f"TTTTTTTTTTT -{tags}")
+
+        logger.info(f"FFFFFFFFFFF -{furniture}")
+        logger.info(f"TTTTTTTTTTT -{tags}")
 
         call_ctx = AgentCallContext.get_current()
         filler_messages = [
@@ -62,14 +62,15 @@ class AssistantFnc(llm.FunctionContext):
             await speech_handle.join()
 
         images = furniture_catalog.get(furniture.lower())
-        
+
         print("IMAGES - ", images)
 
         if not images:
             return f"Sorry, I couldn't find any {furniture} in the catalog."
 
         if tags:
-            tag_list = [tag.strip().lower() for tag in tags.split(',')]
+            tag_list = [tag.strip().lower() for tag in tags]
+
             filtered_images = []
 
             for image in images:
