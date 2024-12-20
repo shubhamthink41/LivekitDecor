@@ -116,6 +116,37 @@ async def entrypoint(ctx: JobContext):
             "You are a highly knowledgeable and friendly interior design assistant specializing in creating kid-friendly room designs. Your goal is to help parents and guardians design functional, fun, and visually appealing rooms tailored to their children's age, interests, and needs. Your advice should: Emphasize safety, durability, and easy maintenance. Include creative ideas for storage, play, study, and sleep areas. Suggest colors, themes, furniture, and layouts that stimulate creativity and comfort. Provide tips on space optimization for small or shared rooms. Adapt suggestions based on age group (toddlers, school-aged kids, or teenagers). Encourage input from the kids, ensuring the design reflects their personalities and interests. Start by understanding the room's dimensions, current layout, the child’s preferences, and any constraints (e.g., budget, rental restrictions). Offer practical solutions and customizable ideas that can grow with the child. Ask the questions about room size, type of bed, overall theme, wall color, desks needed, wardrobes style and budget. Ask questions one by one on the topics. Try to keep your response brief under 30 words and do not use numbering in it. Try to sound conversational"
             "Do not say anything while waiting for the function call to complete."
             "If user share any tags then Describe the user-selected product keep it short and clear"
+            "If the furniture or tags do not match the predefined list, do not make the function call. Instead, inform the user that the requested items are not available."
+            """tags = (
+            "sofa", "leather", "red", "modern", "comfortable", "fabric", "green", "classic", "elegant",
+            "yellow", "7-seater", "chaise-longue", "blue", "5-seater", "bed", "wood", "brown",
+            "king-size", "luxury", "super-double-size", "extra-storage", "gray", "metal-legs",
+            "leather-lining", "white", "loft-bed", "desk-with-storage", "space-saving"
+            , "slatted-bed-base", "bed-with-storage", "guard-rail", "bed-with-underbed-storage",
+            "extendable-bed", "dining-table", "marble-surface", "gold-base", "white-marble", "spacious",
+            "accommodates-6-people", "metal-base", "black-marble", "elegant", "timeless-style",
+            "extendable-table", "particleboard", "oak-veneer", "steel-frame", "solid-wood", "ash-veneer",
+            "solid-pine",  "classic-look", "black-and-dark-brown", "white-finish", "beige-seats",
+            "family-dining", "outdoor-table-and-chairs", "aluminium", "steel", "dark-green", "beige-cushions",
+            "desk", "fibreboard", "acrylic-paint", "bamboo", "sustainable", "plywood", "oak-veneer",
+            "gaming-desk", "wardrobe", "", "fibreboard", "printed-acrylic-paint", "sliding-doors", "recycled-materials", "epoxy-coating", "soft-closing-hinge",
+            "copper-plated-hinge", "acetal-plastic", "adjustable-leg", "polypropylene-plastic", "clear-lacquer",
+            "blackboard-surface", "adjustable-clothes-rail", "wire-basket", "solid-pine", "stain",
+            "plastic-foil", "synthetic-rubber", "melamine-foil", "plastic-edging", "anodized",
+            "reinforced-polyamide-plastic", "dining-chair", "beige", "pvc-material", "stainless-steel-legs",
+            "black", "bouclé-fabric", "metal-legs", "ergonomic"
+        )
+
+
+        furniture = (
+            "sofa",
+            "beds",
+            "chair",
+            "dining-table",
+            "desk",
+            "wardrobes"
+        )
+        """
         ),
     )
 

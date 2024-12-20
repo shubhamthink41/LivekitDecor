@@ -23,8 +23,7 @@ tags = (
     "solid-pine",  "classic-look", "black-and-dark-brown", "white-finish", "beige-seats",
     "family-dining", "outdoor-table-and-chairs", "aluminium", "steel", "dark-green", "beige-cushions",
     "desk", "fibreboard", "acrylic-paint", "bamboo", "sustainable", "plywood", "oak-veneer",
-    "gaming-desk", "wardrobe", "", "fibreboard", "printed-acrylic-paint", "easy-maintenance",
-    "wipe-clean", "mild-cleaner", "sliding-doors", "recycled-materials", "epoxy-coating", "soft-closing-hinge",
+    "gaming-desk", "wardrobe", "", "fibreboard", "printed-acrylic-paint", "sliding-doors", "recycled-materials", "epoxy-coating", "soft-closing-hinge",
     "copper-plated-hinge", "acetal-plastic", "adjustable-leg", "polypropylene-plastic", "clear-lacquer",
     "blackboard-surface", "adjustable-clothes-rail", "wire-basket", "solid-pine", "stain",
     "plastic-foil", "synthetic-rubber", "melamine-foil", "plastic-edging", "anodized",
@@ -113,19 +112,19 @@ furniture_catalog = {
     "dining-table": [
         {
             "image_url": "https://www.luxfurniture.com.cy/cdn/shop/files/marble-dining-table-srd-129-bg.jpg?v=1717577937&width=1000",
-            "tags": ["dining-table", "marble-surface", "gold-base", "white-marble", "modern", "spacious", "accommodates-6-people"]
+            "tags": [ "marble-surface", "gold-base", "white-marble", "modern", "spacious", "accommodates-6-people"]
         },
         {
             "image_url": "https://www.luxfurniture.com.cy/cdn/shop/files/srd040-2.jpg?v=1717579516&width=1000",
-            "tags": ["dining-table", "marble-surface", "metal-base", "black-marble", "modern", "elegant", "timeless-style"]
+            "tags": [ "marble-surface", "metal-base", "black-marble", "modern", "elegant", "timeless-style"]
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/strandtorp-marenaes-table-and-6-armchairs-brown-black-gunnared-dark-grey__1198508_pe904117_s5.jpg?f=xl",
-            "tags": ["dining-table", "extendable-table", "particleboard", "oak-veneer", "steel-frame", "solid-wood", "modern"]
+            "tags": [ "extendable-table", "particleboard", "oak-veneer", "steel-frame", "solid-wood", "modern"]
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/nordviken-skogsbo-table-and-4-chairs-black-dark-brown__1205483_pe907111_s5.jpg?f=xl",
-            "tags": ["dining-table", "extendable-table", "particleboard", "ash-veneer", "solid-pine",  "classic-look", "black-and-dark-brown"]
+            "tags": [ "extendable-table", "particleboard", "ash-veneer", "solid-pine",  "classic-look", "black-and-dark-brown"]
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/ingatorp-ingolf-table-and-6-chairs-white-white-hallarp-beige__1097686_pe865075_s5.jpg?f=xl",
@@ -133,7 +132,7 @@ furniture_catalog = {
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/segeroen-table-and-4-chairs-with-armrests-outdoor-dark-green-froesoen-duvholmen-beige__1185536_pe898432_s5.jpg?f=xl",
-            "tags": ["dining-table", "outdoor-table-and-chairs", "aluminium", "steel", "dark-green", "beige-cushions", "spacious"]
+            "tags": [ "outdoor-table-and-chairs", "aluminium", "steel", "dark-green", "beige-cushions", "spacious"]
         }
     ],
 
@@ -171,7 +170,7 @@ furniture_catalog = {
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/smastad-platsa-wardrobe-white-blackboard-surface-with-3-shelves__1099954_pe866019_s5.jpg?f=xl",
-            "tags": ["fibreboard", "", "particleboard", "recycled-materials", "steel", "epoxy-coating", "soft-closing-hinge", "copper-plated-hinge", "acetal-plastic", "adjustable-leg", "polypropylene-plastic", "clear-lacquer", "acrylic-paint", "blackboard-surface", "easy-maintenance", "wipe-clean", "mild-cleaner", "modern-design", "wardrobe"]
+            "tags": ["fibreboard", "", "particleboard", "recycled-materials", "steel", "epoxy-coating", "soft-closing-hinge", "copper-plated-hinge", "acetal-plastic", "adjustable-leg", "polypropylene-plastic", "clear-lacquer", "acrylic-paint", "blackboard-surface", "modern-design", "wardrobe"]
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/smastad-platsa-wardrobe-white-blackboard-surface-with-2-chest-of-drawers__1102549_pe867025_s5.jpg?f=xl",
