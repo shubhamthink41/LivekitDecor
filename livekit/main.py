@@ -135,6 +135,7 @@ async def entrypoint(ctx: JobContext):
             "plastic-foil", "synthetic-rubber", "melamine-foil", "plastic-edging", "anodized",
             "reinforced-polyamide-plastic", "dining-chair", "beige", "pvc-material", "stainless-steel-legs",
             "black", "bouclé-fabric", "metal-legs", "ergonomic"
+            "if user ask to show all the furniture you have then show them all the images of the furniture they ask for with tags as none"
         )
 
 
