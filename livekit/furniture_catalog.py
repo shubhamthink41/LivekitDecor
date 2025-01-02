@@ -2,14 +2,34 @@
 
 # Common Attributes:
 
-tags =  ("type",
-    "material",
-    "color",
-    "style",
-    "seating-capacity",
-    "reclining-function",
-    "size",
-    "shape")
+# tags =  ("type",
+#     "material",
+#     "color",
+#     "style",
+#     "seating-capacity",
+#     "reclining-function",
+#     "size",
+#     "shape")
+
+tags = (
+    "sofa", "leather", "red", "modern", "comfortable", "fabric", "green", "classic", "elegant",
+    "yellow", "7-seater", "chaise-longue", "blue", "5-seater", "bed", "wood", "brown",
+    "king-size", "luxury", "super-double-size", "extra-storage", "gray", "metal-legs",
+    "leather-lining", "white", "loft-bed", "desk-with-storage", "space-saving"
+    , "slatted-bed-base", "bed-with-storage", "guard-rail", "bed-with-underbed-storage",
+    "extendable-bed", "dining-table", "marble-surface", "gold-base", "white-marble", "spacious",
+    "accommodates-6-people", "metal-base", "black-marble", "elegant", "timeless-style",
+    "extendable-table", "particleboard", "oak-veneer", "steel-frame", "solid-wood", "ash-veneer",
+    "solid-pine",  "classic-look", "black-and-dark-brown", "white-finish", "beige-seats",
+    "family-dining", "outdoor-table-and-chairs", "aluminium", "steel", "dark-green", "beige-cushions",
+    "desk", "fibreboard", "acrylic-paint", "bamboo", "sustainable", "plywood", "oak-veneer",
+    "gaming-desk", "wardrobe", "", "fibreboard", "printed-acrylic-paint", "sliding-doors", "recycled-materials", "epoxy-coating", "soft-closing-hinge",
+    "copper-plated-hinge", "acetal-plastic", "adjustable-leg", "polypropylene-plastic", "clear-lacquer",
+    "blackboard-surface", "adjustable-clothes-rail", "wire-basket", "solid-pine", "stain",
+    "plastic-foil", "synthetic-rubber", "melamine-foil", "plastic-edging", "anodized",
+    "reinforced-polyamide-plastic", "dining-chair", "beige", "pvc-material", "stainless-steel-legs",
+    "black", "bouclé-fabric", "metal-legs", "ergonomic"
+)
 
 
 furniture = (
@@ -18,7 +38,7 @@ furniture = (
     "chair",
     "dining-table",
     "desk",
-    "wardrobe"
+    "wardrobes"
 )
 
 
@@ -73,38 +93,38 @@ furniture_catalog = {
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/smastad-loft-bed-white-pale-pink-with-desk-with-4-drawers__1265273_pe927584_s5.jpg?f=xl",
-            "tags": ["bed", "wood", "white", "modern", "loft-bed", "desk-with-storage", "space-saving", "durable", "functional"]
+            "tags": ["bed", "wood", "white", "modern", "loft-bed", "desk-with-storage", "space-saving",  ]
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/slaekt-nattapa-bed-frm-w-strg-guard-rl-slat-bd-bse-white__1305316_pe939443_s5.jpg?f=xl",
-            "tags": ["bed", "wood", "white", "modern", "slatted-bed-base", "bed-with-storage", "guard-rail", "space-saving", "durable", "functional"]
+            "tags": ["bed", "wood", "white", "modern", "slatted-bed-base", "bed-with-storage", "guard-rail", "space-saving",  ]
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/slaekt-bed-frame-with-underbed-and-storage-white__1362803_pe955327_s5.jpg?f=xl",
-            "tags": ["bed", "wood", "white", "modern", "slatted-bed-base", "bed-with-underbed-storage", "guard-rail", "space-saving", "durable", "functional"]
+            "tags": ["bed", "wood", "white", "modern", "slatted-bed-base", "bed-with-underbed-storage", "guard-rail", "space-saving"]
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/slaekt-ext-bed-frame-with-slatted-bed-base-white__0963406_pe808482_s5.jpg?f=xl",
-            "tags": ["bed", "wood", "white", "modern", "extendable-bed", "slatted-bed-base", "space-saving", "durable", "functional"]
+            "tags": ["bed", "wood", "white", "modern", "extendable-bed", "slatted-bed-base", "space-saving",  ]
         }
     ],
 
     "dining-table": [
         {
             "image_url": "https://www.luxfurniture.com.cy/cdn/shop/files/marble-dining-table-srd-129-bg.jpg?v=1717577937&width=1000",
-            "tags": ["dining-table", "marble-surface", "gold-base", "white-marble", "modern", "spacious", "accommodates-6-people"]
+            "tags": [ "marble-surface", "gold-base", "white-marble", "modern", "spacious", "accommodates-6-people"]
         },
         {
             "image_url": "https://www.luxfurniture.com.cy/cdn/shop/files/srd040-2.jpg?v=1717579516&width=1000",
-            "tags": ["dining-table", "marble-surface", "metal-base", "black-marble", "modern", "elegant", "timeless-style"]
+            "tags": [ "marble-surface", "metal-base", "black-marble", "modern", "elegant", "timeless-style"]
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/strandtorp-marenaes-table-and-6-armchairs-brown-black-gunnared-dark-grey__1198508_pe904117_s5.jpg?f=xl",
-            "tags": ["dining-table", "extendable-table", "particleboard", "oak-veneer", "steel-frame", "solid-wood", "modern"]
+            "tags": [ "extendable-table", "particleboard", "oak-veneer", "steel-frame", "solid-wood", "modern"]
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/nordviken-skogsbo-table-and-4-chairs-black-dark-brown__1205483_pe907111_s5.jpg?f=xl",
-            "tags": ["dining-table", "extendable-table", "particleboard", "ash-veneer", "solid-pine", "durable", "classic-look", "black-and-dark-brown"]
+            "tags": [ "extendable-table", "particleboard", "ash-veneer", "solid-pine",  "classic-look", "black-and-dark-brown"]
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/ingatorp-ingolf-table-and-6-chairs-white-white-hallarp-beige__1097686_pe865075_s5.jpg?f=xl",
@@ -112,7 +132,7 @@ furniture_catalog = {
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/segeroen-table-and-4-chairs-with-armrests-outdoor-dark-green-froesoen-duvholmen-beige__1185536_pe898432_s5.jpg?f=xl",
-            "tags": ["dining-table", "outdoor-table-and-chairs", "aluminium", "steel", "dark-green", "beige-cushions", "spacious"]
+            "tags": [ "outdoor-table-and-chairs", "aluminium", "steel", "dark-green", "beige-cushions", "spacious"]
         }
     ],
 
@@ -146,38 +166,38 @@ furniture_catalog = {
     "wardrobes": [
         {
             "image_url": "https://www.ikea.com/in/en/images/products/rakkestad-wardrobe-with-sliding-doors-black-brown__0823992_pe776023_s5.jpg?f=xl",
-            "tags": ["particleboard", "paper-foil", "fibreboard", "printed-acrylic-paint", "easy-maintenance", "wipe-clean", "mild-cleaner", "modern-design", "sliding-doors", "wardrobe", "durable"]
+            "tags": ["particleboard", "", "fibreboard", "printed-acrylic-paint", "easy-maintenance", "wipe-clean", "mild-cleaner", "modern-design", "sliding-doors", "wardrobe", "durable"]
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/smastad-platsa-wardrobe-white-blackboard-surface-with-3-shelves__1099954_pe866019_s5.jpg?f=xl",
-            "tags": ["fibreboard", "paper-foil", "particleboard", "recycled-materials", "steel", "epoxy-coating", "soft-closing-hinge", "copper-plated-hinge", "acetal-plastic", "adjustable-leg", "polypropylene-plastic", "clear-lacquer", "acrylic-paint", "blackboard-surface", "easy-maintenance", "wipe-clean", "mild-cleaner", "modern-design", "wardrobe"]
+            "tags": ["fibreboard", "", "particleboard", "recycled-materials", "steel", "epoxy-coating", "soft-closing-hinge", "copper-plated-hinge", "acetal-plastic", "adjustable-leg", "polypropylene-plastic", "clear-lacquer", "acrylic-paint", "blackboard-surface", "modern-design", "wardrobe"]
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/smastad-platsa-wardrobe-white-blackboard-surface-with-2-chest-of-drawers__1102549_pe867025_s5.jpg?f=xl",
-            "tags": ["steel", "epoxy-coating", "polypropylene-plastic", "synthetic-rubber", "acetal-plastic", "particleboard", "paper-foil", "fibreboard", "recycled-materials", "copper-plated-hinge", "soft-closing-device", "clear-lacquer", "acrylic-paint", "blackboard-surface", "adjustable-clothes-rail", "wire-basket", "modern-design", "wardrobe", "easy-maintenance", "wipe-clean", "mild-cleaner"]
+            "tags": ["steel", "epoxy-coating", "polypropylene-plastic", "synthetic-rubber", "acetal-plastic", "particleboard", "fibreboard", "recycled-materials", "copper-plated-hinge", "soft-closing-device", "acrylic-paint",  "adjustable-clothes-rail",  "modern-design"]
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/sundvik-wardrobe-white__0626568_pe692872_s5.jpg?f=xl",
-            "tags": ["solid-pine", "stain", "clear-acrylic-lacquer", "fibreboard", "paper-foil", "particleboard", "plastic-foil", "printed-acrylic-paint", "modern-design", "wardrobe", "easy-maintenance", "wipe-clean", "durable", "functional"]
+            "tags": ["solid-pine", "clear-acrylic-lacquer", "particleboard", "plastic-foil", "printed-acrylic-paint", "modern-design" ]
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/smastad-platsa-wardrobe-white-white-with-2-clothes-rails__1266837_pe928321_s5.jpg?f=xl",
-            "tags": ["fibreboard", "paper-foil", "particleboard", "recycled-materials", "steel", "epoxy-coating", "acetal-plastic", "polypropylene-plastic", "synthetic-rubber", "adjustable-clothes-rail", "copper-plated-hinge", "soft-closing-device", "adjustable-leg", "modern-design", "wardrobe", "easy-maintenance", "wipe-clean", "durable"]
+            "tags": ["fibreboard", "recycled-materials", "steel", "epoxy-coating", "polypropylene-plastic", "synthetic-rubber", "adjustable-clothes-rail", "copper-plated-hinge", "soft-closing-device", "adjustable-leg", "modern-design", "wardrobe", "easy-maintenance"]
         },
         {
             "image_url": "https://www.ikea.com/in/en/images/products/skytta-pax-walk-in-wardrobe-with-sliding-doors-black-hokksund-high-gloss-light-grey__1319447_pe940955_s5.jpg?f=xl",
-            "tags": ["aluminium", "anodized", "fibreboard", "plastic-foil", "steel", "acetal-plastic", "reinforced-polyamide-plastic", "solid-pine", "stain", "epoxy-coating", "acetal-plastic", "pigmented-powder-coating", "particleboard", "melamine-foil", "plastic-edging", "recycled-materials", "modern-design", "wardrobe", "sliding-doors", "easy-maintenance", "wipe-clean", "mild-cleaner"]
+            "tags": ["aluminium", "anodized", "fibreboard", "steel", "acetal-plastic", "reinforced-polyamide-plastic", "solid-pine", "epoxy-coating", "acetal-plastic", "pigmented-powder-coating", "plastic-edging", "recycled-materials", "modern-design", "wardrobe", "sliding-doors"]
         }
     ],
 
     "chair": [
         {
             "image_url": "https://www.luxfurniture.com.cy/cdn/shop/files/dining-chair-2217-ivory.jpg?v=1717318206&width=1000",
-            "tags": ["dining-chair", "beige", "pvc-material", "stainless-steel-legs", "modern", "comfortable"]
+            "tags": [ "beige", "pvc-material", "stainless-steel-legs", "modern", "comfortable"]
         },
         {
             "image_url": "https://www.luxfurniture.com.cy/cdn/shop/files/ace-black_1_6ca8cdb0-77f0-4b3d-86a4-a4f9cc9b3f2c.jpg?v=1717265106&width=1000",
-            "tags": ["dining-chair", "black", "bouclé-fabric", "metal-legs", "modern", "ergonomic"]
+            "tags": [ "black", "boucle-fabric", "metal-legs", "modern", "ergonomic"]
         }
     ]
 
